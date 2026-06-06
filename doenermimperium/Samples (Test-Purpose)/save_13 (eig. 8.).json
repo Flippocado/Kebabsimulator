@@ -1,0 +1,1846 @@
+{
+  "version": "1.0",
+  "money": 36897314.283867255,
+  "day": 1506,
+  "hour": 2,
+  "minute": 50,
+  "tick": 216689,
+  "company_name": "KAPADOKYA DÖNER",
+  "total_revenue": 137508635.90507647,
+  "total_expenses": 99424971.6334964,
+  "total_customers_served": 20080577,
+  "market_share": 0.05,
+  "loan_debt": 50000.0,
+  "loan_monthly_payment": 2500.0,
+  "branches": [
+    {
+      "name": "KAPADOKYA DÖNER #1",
+      "location_type": "kleinststadt",
+      "city": "Dönerhausen",
+      "country": "Deutschland",
+      "rent": 800,
+      "hygiene": 80.0,
+      "reputation": 100,
+      "open_hour": 10,
+      "close_hour": 22,
+      "is_open": true,
+      "is_franchise": false,
+      "recipes": [
+        {
+          "name": "Classic Döner",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_knoblauch",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        },
+        {
+          "name": "Rezept 2",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_scharf",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        }
+      ],
+      "staff": [
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Ömer Kaya",
+          "speed": 6,
+          "friendliness": 6,
+          "experience": 7,
+          "reliability": 6,
+          "salary": 1800.0,
+          "morale": 0.2
+        },
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Leyla Kaya",
+          "speed": 8,
+          "friendliness": 5,
+          "experience": 7,
+          "reliability": 7,
+          "salary": 1800.0,
+          "morale": 0.2
+        },
+        {
+          "stype": "reiniger",
+          "level": 1,
+          "name": "Tariq Polat",
+          "speed": 4,
+          "friendliness": 5,
+          "experience": 5,
+          "reliability": 8,
+          "salary": 700.0,
+          "morale": 0.2
+        }
+      ],
+      "suppliers": {
+        "fleisch": {
+          "stype": "fleisch",
+          "name": "Ahmet's Halal Fleisch",
+          "quality": 7,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "brot": {
+          "stype": "brot",
+          "name": "Bäckerei Müller",
+          "quality": 8,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "gemuese": {
+          "stype": "gemuese",
+          "name": "Öztürk Gemüse",
+          "quality": 8,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "getraenke": {
+          "stype": "getraenke",
+          "name": "Cola & Co Vertrieb",
+          "quality": 6,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        }
+      },
+      "upgrades": [],
+      "marketing": {
+        "flyer": false,
+        "social_media": false,
+        "influencer": false,
+        "stadion": false,
+        "tv": false
+      },
+      "total_customers": 342717,
+      "total_revenue": 2348293.459744283,
+      "sauce_popularity": {
+        "sosse_knoblauch": 176521,
+        "sosse_scharf": 166196,
+        "sosse_kraeuterkaese": 0,
+        "sosse_joghurt": 0,
+        "sosse_tomaten": 0
+      },
+      "active_events": [],
+      "capacity": 30,
+      "age_days": 1505
+    },
+    {
+      "name": "KAPADOKYA DÖNER #2",
+      "location_type": "einkaufszentrum",
+      "city": "Wiesbaden",
+      "country": "Deutschland",
+      "rent": 4500,
+      "hygiene": 80.0,
+      "reputation": 100,
+      "open_hour": 10,
+      "close_hour": 22,
+      "is_open": true,
+      "is_franchise": false,
+      "recipes": [
+        {
+          "name": "Classic Döner",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_knoblauch",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        },
+        {
+          "name": "Rezept 2",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_scharf",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        }
+      ],
+      "staff": [
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Hasan Celik",
+          "speed": 8,
+          "friendliness": 4,
+          "experience": 10,
+          "reliability": 6,
+          "salary": 1800.0,
+          "morale": 0.20859781549009804
+        },
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Derya Aksoy",
+          "speed": 9,
+          "friendliness": 7,
+          "experience": 9,
+          "reliability": 6,
+          "salary": 1800.0,
+          "morale": 0.2
+        },
+        {
+          "stype": "reiniger",
+          "level": 1,
+          "name": "Hasan Polat",
+          "speed": 5,
+          "friendliness": 6,
+          "experience": 4,
+          "reliability": 7,
+          "salary": 700.0,
+          "morale": 0.2
+        }
+      ],
+      "suppliers": {
+        "fleisch": {
+          "stype": "fleisch",
+          "name": "Ahmet's Halal Fleisch",
+          "quality": 7,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "brot": {
+          "stype": "brot",
+          "name": "Bäckerei Müller",
+          "quality": 8,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "gemuese": {
+          "stype": "gemuese",
+          "name": "Öztürk Gemüse",
+          "quality": 8,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "getraenke": {
+          "stype": "getraenke",
+          "name": "Cola & Co Vertrieb",
+          "quality": 6,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        }
+      },
+      "upgrades": [],
+      "marketing": {
+        "flyer": false,
+        "social_media": false,
+        "influencer": false,
+        "stadion": false,
+        "tv": false
+      },
+      "total_customers": 1905749,
+      "total_revenue": 13069897.411301307,
+      "sauce_popularity": {
+        "sosse_knoblauch": 980970,
+        "sosse_scharf": 924779,
+        "sosse_kraeuterkaese": 0,
+        "sosse_joghurt": 0,
+        "sosse_tomaten": 0
+      },
+      "active_events": [],
+      "capacity": 30,
+      "age_days": 1502
+    },
+    {
+      "name": "KAPADOKYA DÖNER #3",
+      "location_type": "flughafen",
+      "city": "Frankfurt",
+      "country": "Deutschland",
+      "rent": 8000,
+      "hygiene": 80.0,
+      "reputation": 100,
+      "open_hour": 10,
+      "close_hour": 22,
+      "is_open": true,
+      "is_franchise": false,
+      "recipes": [
+        {
+          "name": "Classic Döner",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_knoblauch",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        },
+        {
+          "name": "Rezept 2",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_scharf",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        }
+      ],
+      "staff": [
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Derya Yilmaz",
+          "speed": 9,
+          "friendliness": 4,
+          "experience": 7,
+          "reliability": 8,
+          "salary": 1800.0,
+          "morale": 0.2
+        },
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Ali Kaya",
+          "speed": 6,
+          "friendliness": 5,
+          "experience": 7,
+          "reliability": 6,
+          "salary": 1800.0,
+          "morale": 0.2
+        },
+        {
+          "stype": "reiniger",
+          "level": 1,
+          "name": "Tariq Sahin",
+          "speed": 6,
+          "friendliness": 7,
+          "experience": 3,
+          "reliability": 7,
+          "salary": 700.0,
+          "morale": 0.20191488061417062
+        }
+      ],
+      "suppliers": {
+        "fleisch": {
+          "stype": "fleisch",
+          "name": "Ahmet's Halal Fleisch",
+          "quality": 7,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "brot": {
+          "stype": "brot",
+          "name": "Bäckerei Müller",
+          "quality": 8,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "gemuese": {
+          "stype": "gemuese",
+          "name": "Öztürk Gemüse",
+          "quality": 8,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "getraenke": {
+          "stype": "getraenke",
+          "name": "Cola & Co Vertrieb",
+          "quality": 6,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        }
+      },
+      "upgrades": [],
+      "marketing": {
+        "flyer": false,
+        "social_media": false,
+        "influencer": false,
+        "stadion": false,
+        "tv": false
+      },
+      "total_customers": 2245934,
+      "total_revenue": 15402015.423574438,
+      "sauce_popularity": {
+        "sosse_knoblauch": 1124560,
+        "sosse_scharf": 1121374,
+        "sosse_kraeuterkaese": 0,
+        "sosse_joghurt": 0,
+        "sosse_tomaten": 0
+      },
+      "active_events": [],
+      "capacity": 15,
+      "age_days": 1247
+    },
+    {
+      "name": "KAPADOKYA DÖNER #4",
+      "location_type": "flughafen",
+      "city": "Frankfurt",
+      "country": "Deutschland",
+      "rent": 8000,
+      "hygiene": 80.0,
+      "reputation": 100,
+      "open_hour": 10,
+      "close_hour": 22,
+      "is_open": true,
+      "is_franchise": false,
+      "recipes": [
+        {
+          "name": "Classic Döner",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_joghurt",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        },
+        {
+          "name": "Rezept 2",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_scharf",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.0
+        },
+        {
+          "name": "Rezept 3",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_knoblauch",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        },
+        {
+          "name": "Rezept 4",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_tomaten",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        },
+        {
+          "name": "Rezept 5",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_kraeuterkaese",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        }
+      ],
+      "staff": [
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Ibrahim Aksoy",
+          "speed": 8,
+          "friendliness": 7,
+          "experience": 10,
+          "reliability": 7,
+          "salary": 1800.0,
+          "morale": 0.2
+        },
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Kemal Demir",
+          "speed": 8,
+          "friendliness": 4,
+          "experience": 8,
+          "reliability": 8,
+          "salary": 1800.0,
+          "morale": 0.2
+        },
+        {
+          "stype": "azubi",
+          "level": 1,
+          "name": "Fatima Aksoy",
+          "speed": 2,
+          "friendliness": 8,
+          "experience": 3,
+          "reliability": 4,
+          "salary": 600.0,
+          "morale": 0.20480738683302194
+        },
+        {
+          "stype": "reiniger",
+          "level": 1,
+          "name": "Ömer Yilmaz",
+          "speed": 3,
+          "friendliness": 7,
+          "experience": 5,
+          "reliability": 8,
+          "salary": 700.0,
+          "morale": 0.2
+        }
+      ],
+      "suppliers": {
+        "fleisch": {
+          "stype": "fleisch",
+          "name": "Ahmet's Halal Fleisch",
+          "quality": 7,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "brot": {
+          "stype": "brot",
+          "name": "Bäckerei Müller",
+          "quality": 8,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "gemuese": {
+          "stype": "gemuese",
+          "name": "Öztürk Gemüse",
+          "quality": 8,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "getraenke": {
+          "stype": "getraenke",
+          "name": "Cola & Co Vertrieb",
+          "quality": 6,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        }
+      },
+      "upgrades": [],
+      "marketing": {
+        "flyer": false,
+        "social_media": false,
+        "influencer": false,
+        "stadion": false,
+        "tv": false
+      },
+      "total_customers": 2495174,
+      "total_revenue": 16907104.21206419,
+      "sauce_popularity": {
+        "sosse_knoblauch": 491111,
+        "sosse_scharf": 535106,
+        "sosse_kraeuterkaese": 488904,
+        "sosse_joghurt": 490838,
+        "sosse_tomaten": 489215
+      },
+      "active_events": [],
+      "capacity": 15,
+      "age_days": 1227
+    },
+    {
+      "name": "KAPADOKYA DÖNER #5",
+      "location_type": "flughafen",
+      "city": "Frankfurt",
+      "country": "Deutschland",
+      "rent": 8000,
+      "hygiene": 80.0,
+      "reputation": 100,
+      "open_hour": 10,
+      "close_hour": 22,
+      "is_open": true,
+      "is_franchise": false,
+      "recipes": [
+        {
+          "name": "Classic Döner",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_knoblauch",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        },
+        {
+          "name": "Rezept 2",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_scharf",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        }
+      ],
+      "staff": [
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Yusuf Polat",
+          "speed": 8,
+          "friendliness": 4,
+          "experience": 9,
+          "reliability": 5,
+          "salary": 1800.0,
+          "morale": 0.2043320065337998
+        },
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Mehmet Polat",
+          "speed": 6,
+          "friendliness": 4,
+          "experience": 8,
+          "reliability": 8,
+          "salary": 1800.0,
+          "morale": 0.20094316611373458
+        },
+        {
+          "stype": "azubi",
+          "level": 1,
+          "name": "Zeynep Ozturk",
+          "speed": 2,
+          "friendliness": 8,
+          "experience": 1,
+          "reliability": 3,
+          "salary": 600.0,
+          "morale": 0.2019088384634555
+        },
+        {
+          "stype": "reiniger",
+          "level": 1,
+          "name": "Nadia Sahin",
+          "speed": 4,
+          "friendliness": 6,
+          "experience": 4,
+          "reliability": 8,
+          "salary": 700.0,
+          "morale": 0.20073417410708624
+        }
+      ],
+      "suppliers": {
+        "fleisch": {
+          "stype": "fleisch",
+          "name": "Ahmet's Halal Fleisch",
+          "quality": 7,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "brot": {
+          "stype": "brot",
+          "name": "Bäckerei Müller",
+          "quality": 8,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "gemuese": {
+          "stype": "gemuese",
+          "name": "Öztürk Gemüse",
+          "quality": 8,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "getraenke": {
+          "stype": "getraenke",
+          "name": "Cola & Co Vertrieb",
+          "quality": 6,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        }
+      },
+      "upgrades": [],
+      "marketing": {
+        "flyer": true,
+        "social_media": true,
+        "influencer": true,
+        "stadion": true,
+        "tv": false
+      },
+      "total_customers": 5101899,
+      "total_revenue": 34991417.44405875,
+      "sauce_popularity": {
+        "sosse_knoblauch": 2544969,
+        "sosse_scharf": 2556930,
+        "sosse_kraeuterkaese": 0,
+        "sosse_joghurt": 0,
+        "sosse_tomaten": 0
+      },
+      "active_events": [],
+      "capacity": 15,
+      "age_days": 1187
+    },
+    {
+      "name": "KAPADOKYA DÖNER #6",
+      "location_type": "einkaufszentrum",
+      "city": "Mainz",
+      "country": "Deutschland",
+      "rent": 4500,
+      "hygiene": 80.0,
+      "reputation": 100,
+      "open_hour": 10,
+      "close_hour": 22,
+      "is_open": true,
+      "is_franchise": false,
+      "recipes": [
+        {
+          "name": "Classic Döner",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_knoblauch",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        },
+        {
+          "name": "Rezept 2",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_scharf",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        }
+      ],
+      "staff": [
+        {
+          "stype": "azubi",
+          "level": 1,
+          "name": "Nadia Celik",
+          "speed": 5,
+          "friendliness": 5,
+          "experience": 4,
+          "reliability": 5,
+          "salary": 600.0,
+          "morale": 0.20346698311701333
+        },
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Yusuf Polat",
+          "speed": 7,
+          "friendliness": 5,
+          "experience": 8,
+          "reliability": 8,
+          "salary": 1800.0,
+          "morale": 0.20556421525876176
+        },
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Zeynep Sahin",
+          "speed": 7,
+          "friendliness": 6,
+          "experience": 9,
+          "reliability": 5,
+          "salary": 1800.0,
+          "morale": 0.2
+        },
+        {
+          "stype": "reiniger",
+          "level": 1,
+          "name": "Leyla Yilmaz",
+          "speed": 4,
+          "friendliness": 4,
+          "experience": 2,
+          "reliability": 9,
+          "salary": 700.0,
+          "morale": 0.20657116804257902
+        }
+      ],
+      "suppliers": {
+        "fleisch": {
+          "stype": "fleisch",
+          "name": "Ahmet's Halal Fleisch",
+          "quality": 7,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "brot": {
+          "stype": "brot",
+          "name": "Bäckerei Müller",
+          "quality": 8,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "gemuese": {
+          "stype": "gemuese",
+          "name": "Öztürk Gemüse",
+          "quality": 8,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "getraenke": {
+          "stype": "getraenke",
+          "name": "Cola & Co Vertrieb",
+          "quality": 6,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        }
+      },
+      "upgrades": [],
+      "marketing": {
+        "flyer": false,
+        "social_media": false,
+        "influencer": false,
+        "stadion": false,
+        "tv": false
+      },
+      "total_customers": 1535457,
+      "total_revenue": 10530109.687494166,
+      "sauce_popularity": {
+        "sosse_knoblauch": 768930,
+        "sosse_scharf": 766527,
+        "sosse_kraeuterkaese": 0,
+        "sosse_joghurt": 0,
+        "sosse_tomaten": 0
+      },
+      "active_events": [],
+      "capacity": 15,
+      "age_days": 1129
+    },
+    {
+      "name": "KAPADOKYA DÖNER #7",
+      "location_type": "flughafen",
+      "city": "Paris",
+      "country": "Frankreich",
+      "rent": 8000,
+      "hygiene": 80.0,
+      "reputation": 100,
+      "open_hour": 10,
+      "close_hour": 22,
+      "is_open": true,
+      "is_franchise": false,
+      "recipes": [
+        {
+          "name": "Classic Döner",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_scharf",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        },
+        {
+          "name": "Rezept 2",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_knoblauch",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        }
+      ],
+      "staff": [
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Kemal Celik",
+          "speed": 8,
+          "friendliness": 6,
+          "experience": 10,
+          "reliability": 7,
+          "salary": 1800.0,
+          "morale": 0.2
+        },
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Ömer Demir",
+          "speed": 9,
+          "friendliness": 4,
+          "experience": 9,
+          "reliability": 6,
+          "salary": 1800.0,
+          "morale": 0.20533503013505047
+        },
+        {
+          "stype": "azubi",
+          "level": 1,
+          "name": "Cem Sahin",
+          "speed": 4,
+          "friendliness": 7,
+          "experience": 1,
+          "reliability": 3,
+          "salary": 600.0,
+          "morale": 0.20232996059917255
+        },
+        {
+          "stype": "reiniger",
+          "level": 1,
+          "name": "Kemal Celik",
+          "speed": 4,
+          "friendliness": 5,
+          "experience": 4,
+          "reliability": 6,
+          "salary": 700.0,
+          "morale": 0.2
+        }
+      ],
+      "suppliers": {
+        "fleisch": {
+          "stype": "fleisch",
+          "name": "Ahmet's Halal Fleisch",
+          "quality": 7,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "brot": {
+          "stype": "brot",
+          "name": "Bäckerei Müller",
+          "quality": 8,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "gemuese": {
+          "stype": "gemuese",
+          "name": "Öztürk Gemüse",
+          "quality": 8,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "getraenke": {
+          "stype": "getraenke",
+          "name": "Cola & Co Vertrieb",
+          "quality": 6,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        }
+      },
+      "upgrades": [],
+      "marketing": {
+        "flyer": true,
+        "social_media": true,
+        "influencer": true,
+        "stadion": true,
+        "tv": false
+      },
+      "total_customers": 4893034,
+      "total_revenue": 33555664.8040625,
+      "sauce_popularity": {
+        "sosse_knoblauch": 2446803,
+        "sosse_scharf": 2446231,
+        "sosse_kraeuterkaese": 0,
+        "sosse_joghurt": 0,
+        "sosse_tomaten": 0
+      },
+      "active_events": [],
+      "capacity": 15,
+      "age_days": 1110
+    },
+    {
+      "name": "KAPADOKYA DÖNER #8",
+      "location_type": "flughafen",
+      "city": "Bern",
+      "country": "Schweiz",
+      "rent": 8000,
+      "hygiene": 80.0,
+      "reputation": 100,
+      "open_hour": 10,
+      "close_hour": 22,
+      "is_open": true,
+      "is_franchise": false,
+      "recipes": [
+        {
+          "name": "Classic Döner",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_scharf",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        },
+        {
+          "name": "Rezept 2",
+          "fleisch": "fleisch_premium",
+          "brot": "brot_normal",
+          "salat": true,
+          "tomate": true,
+          "zwiebel": true,
+          "kraut": true,
+          "gurke": true,
+          "sosse": "sosse_knoblauch",
+          "schaerfe": 2,
+          "fleisch_menge": 2.0,
+          "price": 7.5
+        }
+      ],
+      "staff": [
+        {
+          "stype": "azubi",
+          "level": 1,
+          "name": "Ibrahim Demir",
+          "speed": 3,
+          "friendliness": 7,
+          "experience": 1,
+          "reliability": 5,
+          "salary": 600.0,
+          "morale": 0.20363266666912072
+        },
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Sara Kaya",
+          "speed": 7,
+          "friendliness": 4,
+          "experience": 8,
+          "reliability": 5,
+          "salary": 1800.0,
+          "morale": 0.20459664498246458
+        },
+        {
+          "stype": "doenemrister",
+          "level": 1,
+          "name": "Zeynep Celik",
+          "speed": 7,
+          "friendliness": 7,
+          "experience": 10,
+          "reliability": 8,
+          "salary": 1800.0,
+          "morale": 0.2
+        },
+        {
+          "stype": "reiniger",
+          "level": 1,
+          "name": "Leyla Celik",
+          "speed": 6,
+          "friendliness": 5,
+          "experience": 4,
+          "reliability": 6,
+          "salary": 700.0,
+          "morale": 0.20033284415814503
+        }
+      ],
+      "suppliers": {
+        "fleisch": {
+          "stype": "fleisch",
+          "name": "Ahmet's Halal Fleisch",
+          "quality": 7,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "brot": {
+          "stype": "brot",
+          "name": "Bäckerei Müller",
+          "quality": 8,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "gemuese": {
+          "stype": "gemuese",
+          "name": "Öztürk Gemüse",
+          "quality": 8,
+          "reliability": 8,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        },
+        "getraenke": {
+          "stype": "getraenke",
+          "name": "Cola & Co Vertrieb",
+          "quality": 6,
+          "reliability": 9,
+          "price_mod": 1.0,
+          "contract_days": 30,
+          "active": true
+        }
+      },
+      "upgrades": [],
+      "marketing": {
+        "flyer": false,
+        "social_media": false,
+        "influencer": false,
+        "stadion": false,
+        "tv": false
+      },
+      "total_customers": 1560613,
+      "total_revenue": 10704133.462773189,
+      "sauce_popularity": {
+        "sosse_knoblauch": 780829,
+        "sosse_scharf": 779784,
+        "sosse_kraeuterkaese": 0,
+        "sosse_joghurt": 0,
+        "sosse_tomaten": 0
+      },
+      "active_events": [],
+      "capacity": 15,
+      "age_days": 866
+    }
+  ],
+  "research_tree": {
+    "schnittmaschine": {
+      "node_id": "schnittmaschine",
+      "name": "Automatischer Döner-Schneider",
+      "desc": "Erhöht die Produktionsgeschwindigkeit um 30%.",
+      "cost": 5000,
+      "duration_days": 7,
+      "requires": [],
+      "unlocked": true,
+      "researching": false,
+      "progress": 1.0,
+      "effect": {
+        "speed_mod": 1.3
+      }
+    },
+    "premium_zutaten": {
+      "node_id": "premium_zutaten",
+      "name": "Premium-Zutaten-Programm",
+      "desc": "Schaltet Premium-Fleisch und Bio-Gemüse frei. Qualität +2.",
+      "cost": 8000,
+      "duration_days": 14,
+      "requires": [],
+      "unlocked": true,
+      "researching": false,
+      "progress": 1.0,
+      "effect": {
+        "quality_mod": 2.0
+      }
+    },
+    "ki_kasse": {
+      "node_id": "ki_kasse",
+      "name": "KI-Kassensystem",
+      "desc": "Reduziert Wartezeiten. Kunden-Durchsatz +25%.",
+      "cost": 12000,
+      "duration_days": 10,
+      "requires": [
+        "schnittmaschine"
+      ],
+      "unlocked": true,
+      "researching": false,
+      "progress": 1.0,
+      "effect": {
+        "throughput_mod": 1.25
+      }
+    },
+    "schnelle_lieferung": {
+      "node_id": "schnelle_lieferung",
+      "name": "Expresslieferdienst",
+      "desc": "Lieferengpässe werden schneller behoben.",
+      "cost": 7000,
+      "duration_days": 7,
+      "requires": [],
+      "unlocked": true,
+      "researching": false,
+      "progress": 1.0,
+      "effect": {
+        "supply_resilience": 0.5
+      }
+    },
+    "eigene_logistik": {
+      "node_id": "eigene_logistik",
+      "name": "Eigenes Logistikzentrum",
+      "desc": "Senkt Lieferkosten um 20%. Stabile Versorgung.",
+      "cost": 50000,
+      "duration_days": 30,
+      "requires": [
+        "schnelle_lieferung"
+      ],
+      "unlocked": true,
+      "researching": false,
+      "progress": 1.0,
+      "effect": {
+        "cost_mod": 0.8
+      }
+    },
+    "franchise": {
+      "node_id": "franchise",
+      "name": "Franchise-System",
+      "desc": "Ermöglicht Franchise-Filialen. Passives Einkommen!",
+      "cost": 80000,
+      "duration_days": 45,
+      "requires": [
+        "ki_kasse"
+      ],
+      "unlocked": true,
+      "researching": false,
+      "progress": 1.0,
+      "effect": {
+        "franchise_enabled": true
+      }
+    },
+    "brotfabrik": {
+      "node_id": "brotfabrik",
+      "name": "Eigene Brotfabrik",
+      "desc": "Produziert Brot in Eigenregie. Brotkosten -60%.",
+      "cost": 200000,
+      "duration_days": 60,
+      "requires": [
+        "eigene_logistik"
+      ],
+      "unlocked": true,
+      "researching": false,
+      "progress": 1.0,
+      "effect": {
+        "bread_cost_mod": 0.4
+      }
+    },
+    "fleischproduktion": {
+      "node_id": "fleischproduktion",
+      "name": "Eigene Fleischproduktion",
+      "desc": "Eigene Produktion. Fleischkosten -50%. Qualität +1.",
+      "cost": 500000,
+      "duration_days": 90,
+      "requires": [
+        "brotfabrik"
+      ],
+      "unlocked": true,
+      "researching": false,
+      "progress": 1.0,
+      "effect": {
+        "meat_cost_mod": 0.5,
+        "quality_mod": 1.0
+      }
+    },
+    "solar_energie": {
+      "node_id": "solar_energie",
+      "name": "Solarenergie-System",
+      "desc": "Senkt Stromkosten. Stromausfälle weniger häufig.",
+      "cost": 25000,
+      "duration_days": 14,
+      "requires": [],
+      "unlocked": true,
+      "researching": false,
+      "progress": 1.0,
+      "effect": {
+        "energy_resilience": true,
+        "cost_mod": 0.95
+      }
+    },
+    "loyalty_app": {
+      "node_id": "loyalty_app",
+      "name": "Döner-Loyalty-App",
+      "desc": "Kundenbindungs-App. Stammkunden +40%.",
+      "cost": 15000,
+      "duration_days": 21,
+      "requires": [
+        "ki_kasse"
+      ],
+      "unlocked": true,
+      "researching": false,
+      "progress": 1.0,
+      "effect": {
+        "loyalty_mod": 1.4
+      }
+    },
+    "geheimrezept": {
+      "node_id": "geheimrezept",
+      "name": "Geheimes Familienrezept",
+      "desc": "Legendäre Soße. Qualität massiv verbessert. Ruf +20.",
+      "cost": 30000,
+      "duration_days": 30,
+      "requires": [
+        "premium_zutaten"
+      ],
+      "unlocked": true,
+      "researching": false,
+      "progress": 1.0,
+      "effect": {
+        "quality_mod": 3.0,
+        "reputation_bonus": 20
+      }
+    },
+    "mega_grill": {
+      "node_id": "mega_grill",
+      "name": "Mega-Drehspieß 3000",
+      "desc": "Industriegrill. Kapazität +100%. Kunden pro Stunde verdoppelt.",
+      "cost": 40000,
+      "duration_days": 21,
+      "requires": [
+        "schnittmaschine"
+      ],
+      "unlocked": true,
+      "researching": false,
+      "progress": 1.0,
+      "effect": {
+        "capacity_mod": 2.0
+      }
+    }
+  },
+  "active_research": null,
+  "research_progress_days": 0,
+  "competitors": [
+    {
+      "name": "Billig-Döner Baris",
+      "quality": 3,
+      "price_mod": 0.7,
+      "city": "Wiesbaden",
+      "market_share": 0.03489177262554823,
+      "reputation": 40.032783687763526,
+      "age_days": 1446
+    },
+    {
+      "name": "Premium Kebab Palace",
+      "quality": 9,
+      "price_mod": 1.6,
+      "city": "Wiesbaden",
+      "market_share": 0.16544422622259805,
+      "reputation": 62.153370715476846,
+      "age_days": 1386
+    },
+    {
+      "name": "Billig-Döner Baris",
+      "quality": 3,
+      "price_mod": 0.7,
+      "city": "Wiesbaden",
+      "market_share": 0.07190857126055743,
+      "reputation": 60.81611468660779,
+      "age_days": 1326
+    },
+    {
+      "name": "Premium Kebab Palace",
+      "quality": 9,
+      "price_mod": 1.6,
+      "city": "Dönerhausen",
+      "market_share": 0.1674270920150791,
+      "reputation": 78.30266203455184,
+      "age_days": 1266
+    },
+    {
+      "name": "Geheimtipp Dönerbude",
+      "quality": 8,
+      "price_mod": 0.9,
+      "city": "Dönerhausen",
+      "market_share": 0.11875989082117563,
+      "reputation": 71.94651380806056,
+      "age_days": 1206
+    },
+    {
+      "name": "Premium Kebab Palace",
+      "quality": 9,
+      "price_mod": 1.6,
+      "city": "Dönerhausen",
+      "market_share": 0.07832376519665171,
+      "reputation": 44.136271913364375,
+      "age_days": 1146
+    },
+    {
+      "name": "McBurger Fusion",
+      "quality": 5,
+      "price_mod": 1.0,
+      "city": "Paris",
+      "market_share": 0.17465498178601052,
+      "reputation": 69.50976348972738,
+      "age_days": 1086
+    },
+    {
+      "name": "Geheimtipp Dönerbude",
+      "quality": 8,
+      "price_mod": 0.9,
+      "city": "Wiesbaden",
+      "market_share": 0.05210643957375215,
+      "reputation": 65.35618257605105,
+      "age_days": 1026
+    },
+    {
+      "name": "McBurger Fusion",
+      "quality": 5,
+      "price_mod": 1.0,
+      "city": "Dönerhausen",
+      "market_share": 0.05068861618689925,
+      "reputation": 53.693864720645855,
+      "age_days": 966
+    },
+    {
+      "name": "Premium Kebab Palace",
+      "quality": 9,
+      "price_mod": 1.6,
+      "city": "Mainz",
+      "market_share": 0.10798029198821349,
+      "reputation": 71.11252243168606,
+      "age_days": 906
+    },
+    {
+      "name": "Geheimtipp Dönerbude",
+      "quality": 8,
+      "price_mod": 0.9,
+      "city": "Frankfurt",
+      "market_share": 0.05677234187410959,
+      "reputation": 78.94287132723471,
+      "age_days": 846
+    },
+    {
+      "name": "Billig-Döner Baris",
+      "quality": 3,
+      "price_mod": 0.7,
+      "city": "Paris",
+      "market_share": 0.16979832223150146,
+      "reputation": 40.56960560279976,
+      "age_days": 786
+    },
+    {
+      "name": "Premium Kebab Palace",
+      "quality": 9,
+      "price_mod": 1.6,
+      "city": "Frankfurt",
+      "market_share": 0.09509199490315176,
+      "reputation": 78.4648597449892,
+      "age_days": 726
+    },
+    {
+      "name": "Geheimtipp Dönerbude",
+      "quality": 8,
+      "price_mod": 0.9,
+      "city": "Dönerhausen",
+      "market_share": 0.11534659839376314,
+      "reputation": 56.85905068728981,
+      "age_days": 666
+    },
+    {
+      "name": "Premium Kebab Palace",
+      "quality": 9,
+      "price_mod": 1.6,
+      "city": "Dönerhausen",
+      "market_share": 0.1592228470071681,
+      "reputation": 51.014822303518585,
+      "age_days": 606
+    },
+    {
+      "name": "Premium Kebab Palace",
+      "quality": 9,
+      "price_mod": 1.6,
+      "city": "Frankfurt",
+      "market_share": 0.14925480717844397,
+      "reputation": 52.8086315812056,
+      "age_days": 546
+    },
+    {
+      "name": "McBurger Fusion",
+      "quality": 5,
+      "price_mod": 1.0,
+      "city": "Paris",
+      "market_share": 0.10637608997492856,
+      "reputation": 71.0137806850274,
+      "age_days": 486
+    },
+    {
+      "name": "Premium Kebab Palace",
+      "quality": 9,
+      "price_mod": 1.6,
+      "city": "Mainz",
+      "market_share": 0.14885921768337704,
+      "reputation": 54.22894024825112,
+      "age_days": 426
+    },
+    {
+      "name": "Billig-Döner Baris",
+      "quality": 3,
+      "price_mod": 0.7,
+      "city": "Frankfurt",
+      "market_share": 0.20201854658879784,
+      "reputation": 54.40923611929581,
+      "age_days": 366
+    },
+    {
+      "name": "Geheimtipp Dönerbude",
+      "quality": 8,
+      "price_mod": 0.9,
+      "city": "Paris",
+      "market_share": 0.13938244896565996,
+      "reputation": 79.15865625314771,
+      "age_days": 306
+    },
+    {
+      "name": "Premium Kebab Palace",
+      "quality": 9,
+      "price_mod": 1.6,
+      "city": "Wiesbaden",
+      "market_share": 0.06867748322398971,
+      "reputation": 73.78594506209387,
+      "age_days": 246
+    },
+    {
+      "name": "McBurger Fusion",
+      "quality": 5,
+      "price_mod": 1.0,
+      "city": "Wiesbaden",
+      "market_share": 0.1758621802556952,
+      "reputation": 55.22864310853549,
+      "age_days": 186
+    },
+    {
+      "name": "McBurger Fusion",
+      "quality": 5,
+      "price_mod": 1.0,
+      "city": "Paris",
+      "market_share": 0.11065443754710075,
+      "reputation": 53.374141176117334,
+      "age_days": 126
+    },
+    {
+      "name": "Premium Kebab Palace",
+      "quality": 9,
+      "price_mod": 1.6,
+      "city": "Frankfurt",
+      "market_share": 0.05588575059014404,
+      "reputation": 54.55752059681106,
+      "age_days": 66
+    },
+    {
+      "name": "Billig-Döner Baris",
+      "quality": 3,
+      "price_mod": 0.7,
+      "city": "Mainz",
+      "market_share": 0.19086038925119783,
+      "reputation": 75.46537082683597,
+      "age_days": 6
+    }
+  ],
+  "notifications": [
+    {
+      "msg": "Das Schild 'FRISCH' leuchtet nicht mehr. Kunden misstrauisch.",
+      "type": "warn",
+      "time": 35900,
+      "age": 512.0730000000143
+    },
+    {
+      "msg": "Knoblauchsoße verursacht erneut Lieferprobleme beim Fahrer.",
+      "type": "warn",
+      "time": 35910,
+      "age": 508.29700000001327
+    },
+    {
+      "msg": "Ein Kunde behauptet, früher seien die Döner größer gewesen.",
+      "type": "info",
+      "time": 35927,
+      "age": 501.71700000001164
+    },
+    {
+      "msg": "Schärfste Soße wurde versehentlich als Kinderspeise serviert.",
+      "type": "warn",
+      "time": 35947,
+      "age": 494.41400000001016
+    },
+    {
+      "msg": "Wallah bester Döner! Umsatz +15%!",
+      "type": "success",
+      "time": 35956,
+      "age": 491.0500000000092
+    },
+    {
+      "msg": "Gesundheitsamt kündigt Inspektion an! Schnell aufräumen!",
+      "type": "danger",
+      "time": 35971,
+      "age": 485.40200000000846
+    },
+    {
+      "msg": "Kundenbewertung: '5 Sterne, weil ich nicht weiter zählen konnte.'",
+      "type": "info",
+      "time": 35987,
+      "age": 479.31900000000763
+    },
+    {
+      "msg": "Neue Konkurrenz: Billig-Döner Baris eröffnet in Mainz!",
+      "type": "warn",
+      "time": 36000,
+      "age": 474.60700000000685
+    },
+    {
+      "msg": "Kreditrate: -2500€ (Schulden: 50000€)",
+      "type": "warn",
+      "time": 36024,
+      "age": 465.5910000000064
+    },
+    {
+      "msg": "Monatsabschluss: 629324€ Umsatz, 8 Filialen",
+      "type": "info",
+      "time": 36024,
+      "age": 465.5910000000064
+    },
+    {
+      "msg": "Radio: 'Bester Döner Deutschlands gefunden!' +1000 Anrufe!",
+      "type": "success",
+      "time": 36025,
+      "age": 465.0720000000063
+    },
+    {
+      "msg": "Busladung Touristen aus Japan fotografiert jeden Döner!",
+      "type": "success",
+      "time": 36041,
+      "age": 459.1510000000055
+    },
+    {
+      "msg": "Fußballspiel vorbei - Ansturm von 80 Hungrigen!",
+      "type": "success",
+      "time": 36055,
+      "age": 453.7230000000046
+    },
+    {
+      "msg": "Strom fällt aus! Alle Grills offline für 2 Stunden.",
+      "type": "warn",
+      "time": 36064,
+      "age": 450.5020000000039
+    },
+    {
+      "msg": "Zwiebeln fehlen! Notfalllieferung wurde bestellt.",
+      "type": "warn",
+      "time": 36073,
+      "age": 442.60100000000256
+    },
+    {
+      "msg": "Gesundheitsamt kündigt Inspektion an! Schnell aufräumen!",
+      "type": "danger",
+      "time": 36080,
+      "age": 396.6959999999911
+    },
+    {
+      "msg": "Influencer postet: 'Das ist kein Döner, das ist KUNST!' +200 Kunden!",
+      "type": "success",
+      "time": 36099,
+      "age": 285.38899999996505
+    },
+    {
+      "msg": "Knoblauchsoße verursacht erneut Lieferprobleme beim Fahrer.",
+      "type": "warn",
+      "time": 36106,
+      "age": 239.59999999996103
+    },
+    {
+      "msg": "Radio: 'Bester Döner Deutschlands gefunden!' +1000 Anrufe!",
+      "type": "success",
+      "time": 36123,
+      "age": 142.60999999999535
+    },
+    {
+      "msg": "Busladung Touristen aus Japan fotografiert jeden Döner!",
+      "type": "success",
+      "time": 36140,
+      "age": 38.64499999999934
+    }
+  ],
+  "revenue_history": [
+    20906.68276963308,
+    20921.331136441324,
+    20529.821178428887,
+    21262.839919367983,
+    21619.25219469209,
+    21035.85210035434,
+    21121.904435369306,
+    21027.860187960592,
+    21188.632461679015,
+    20834.556678573244,
+    20858.9594105295,
+    20580.84011625468,
+    21266.23840047255,
+    21092.91868763401,
+    20747.31288973775,
+    20502.246779705696,
+    21077.15980760847,
+    21588.15220411918,
+    21486.924724925393,
+    21704.018374711024,
+    21402.5264349529,
+    21970.7336955227,
+    20902.749041713596,
+    20082.74155362642,
+    20518.075798188853,
+    20229.076803469776,
+    20425.50564160167,
+    21167.348510981945,
+    20569.00481978415,
+    20320.44293329634
+  ],
+  "customer_history": [
+    9316,
+    9313,
+    9138,
+    9466,
+    9606,
+    9349,
+    9480,
+    9344,
+    9443,
+    9285,
+    9226,
+    9130,
+    9425,
+    9348,
+    9212,
+    9132,
+    9432,
+    9632,
+    9515,
+    9615,
+    9464,
+    9719,
+    9287,
+    8960,
+    9087,
+    8995,
+    9083,
+    9347,
+    9170,
+    9086
+  ],
+  "expense_history": [
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0,
+    3420.0
+  ],
+  "victories_achieved": [],
+  "total_branches_ever": 8,
+  "countries_present": [
+    "Deutschland",
+    "Frankreich",
+    "Schweiz"
+  ],
+  "game_speed": 1.0
+}
